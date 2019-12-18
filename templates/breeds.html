@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html lang = 'en' dir = 'ltr'>
+	<head>
+		<meta charset = 'utf-8'>
+		<title> List of Dog Breeds </title>
+	</head>
+	<body>
+		{%for breed in all_breeds%}
+		<ul>
+			<li>
+				{{breed}}
+			</li>
+		</ul>
+		{% endfor %}
+	</body>
+</html>
